@@ -19,7 +19,6 @@ add <- function(a,b=0) {
   if(!is.numeric(a) | !is.numeric(b)) {
     stop('a and b have to be numbers')
   }
-
   a+b
 }
 
